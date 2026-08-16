@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+mistralai
+langchain
+langgraph
+langchain-core
+langchain-community
+requests
+httpx
