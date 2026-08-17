@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const AI_SERVICE_URL =
-    "http://127.0.0.1:8000";
+    "https://interviewai-1-f9ox.onrender.com";
 
 
 // EXECUTE CODE

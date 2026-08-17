@@ -33,7 +33,7 @@ export const startInterviewService = async ({
         // GENERATE QUESTION
 
         const response = await axios.post(
-            "http://127.0.0.1:8000/api/interview/generate-question",
+            "https://interviewai-1-f9ox.onrender.com/api/interview/generate-question",
             {
                 topic,
                 difficulty,
@@ -365,7 +365,7 @@ export const submitInterviewCodeService =
             ) || 0;
 
         console.log(
-            "🤖 AI Score:",
+            "AI Score:",
             aiScore
         );
 
